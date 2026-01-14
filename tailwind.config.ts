@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ['Fraunces', 'serif'],
+        serif: ['Literata', 'serif'],
         sans: ['Inter', 'sans-serif'],
       },
       colors: {
