@@ -15,7 +15,7 @@ export const Header = () => {
           <div className="w-10 h-10 rounded-xl bg-gradient-forest flex items-center justify-center">
             <Sprout className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="font-serif text-xl text-foreground">Mycelium</span>
+          <span className="font-serif text-xl text-foreground">MyCorr</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
