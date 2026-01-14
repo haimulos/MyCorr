@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { MyceliumNetwork } from "./MyceliumNetwork";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -40,9 +41,11 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="xl">
-              Join the Network
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" asChild>
+              <Link to="/create-profile">
+                Create Your Profile
+                <ArrowRight className="w-5 h-5" />
+              </Link>
             </Button>
             <Button variant="outline" size="xl">
               Explore Skills
