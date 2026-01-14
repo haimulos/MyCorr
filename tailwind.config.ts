@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ['Literata', 'serif'],
+        serif: ['polymath', 'serif'],
         sans: ['Inter', 'sans-serif'],
       },
       colors: {
