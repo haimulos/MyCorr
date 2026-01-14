@@ -10,7 +10,7 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-primary-foreground/10 flex items-center justify-center">
                 <Sprout className="w-5 h-5 text-spore" />
               </div>
-              <span className="font-serif text-xl">Mycelium</span>
+              <span className="font-serif text-xl">MyCorr</span>
             </div>
             <p className="text-primary-foreground/70 max-w-sm leading-relaxed">
               A community built on the ancient wisdom of nature's underground networks. 
@@ -40,7 +40,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 text-center text-primary-foreground/50 text-sm">
-          <p>© 2026 Mycelium. Growing communities, one exchange at a time.</p>
+          <p>© 2026 MyCorr. Growing communities, one exchange at a time.</p>
         </div>
       </div>
     </footer>
